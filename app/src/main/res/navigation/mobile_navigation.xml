@@ -15,11 +15,11 @@
         android:id="@+id/nav_gallery"
         android:name="com.example.maximoffclinica2.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_NovaConsulta" />
+        tools:layout="@layout/fragment_novaconsulta" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.maximoffclinica2.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_configurações" />
+        tools:layout="@layout/fragment_config" />
 </navigation>

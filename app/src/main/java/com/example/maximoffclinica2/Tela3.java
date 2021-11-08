@@ -40,5 +40,17 @@ public class Tela3 extends AppCompatActivity {
 
             }
         });
+
+        Button btn_5 = findViewById(R.id.btn_5);
+
+        btn_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent tl6 = new Intent(getBaseContext(), Tela6.class);
+
+                startActivity(tl6);
+            }
+        });
     }
 }

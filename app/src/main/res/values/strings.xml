@@ -11,4 +11,9 @@
     <string name="menu_novaconsulta">Nova Consulta</string>
     <string name="menu_perfil">Perfil</string>
     <string name="menu_config">Configurações</string>
+    <string name="menu_gallery" />
+    <string name="menu_home" />
+    <string name="menu_slideshow" />
+    <string name="cancelar_consulta">Cancelar Consulta</string>
+    <string name="nova_consulta">Nova Consulta</string>
 </resources>

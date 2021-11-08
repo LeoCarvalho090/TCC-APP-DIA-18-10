@@ -26,5 +26,17 @@ public class Tela5 extends AppCompatActivity {
                 startActivity(tl3);
             }
         });
+
+        Button btn_cm = findViewById(R.id.btn_cm);
+
+        btn_cm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent tl6 = new Intent(getBaseContext(), Tela6.class);
+
+                startActivity(tl6);
+            }
+        });
     }
 }

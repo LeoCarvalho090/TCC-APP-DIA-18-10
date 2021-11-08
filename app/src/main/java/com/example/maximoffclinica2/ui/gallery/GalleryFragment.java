@@ -12,9 +12,6 @@ import androidx.fragment.app.Fragment;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 
-import com.example.maximoffclinica2.R;
-import com.example.maximoffclinica2.databinding.FragmentGalleryBinding;
-
 public class GalleryFragment extends Fragment {
 
     private GalleryViewModel galleryViewModel;
@@ -25,7 +22,7 @@ public class GalleryFragment extends Fragment {
         galleryViewModel =
                 new ViewModelProvider(this).get(GalleryViewModel.class);
 
-        binding = FragmentGalleryBinding.inflate(inflater, container, false);
+        FragmentGalleryBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
 
         final TextView textView = binding.textGallery;
